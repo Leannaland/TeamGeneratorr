@@ -16,8 +16,6 @@ const arrayid = []
 
 
 
-function createManager (){
-
 //array of questions for user here using inquirer
 inquirer.prompt([
    {
@@ -42,7 +40,4 @@ inquirer.prompt([
     message: "What is the employee id",
  },
  
-
-
 ])
-    }
